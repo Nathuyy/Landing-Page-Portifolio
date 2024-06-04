@@ -1,2 +1,2 @@
-# Landing-Page---Portif-lio-
+# Landing-Page-Portifolio
 Projeto desenvolvido na trilha Desenvolvimento FullStack +PraTI!
