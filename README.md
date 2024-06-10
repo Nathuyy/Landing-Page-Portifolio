@@ -2,6 +2,8 @@
 
 Projeto da trilha Desenvolvimento FullStack +PraTI!
 
+https://nathuyy.github.io/Landing-Page-Portifolio/
+
 ## Requisitos do projeto:
 
 - Configure um repositório Git para o projeto.
