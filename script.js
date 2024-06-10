@@ -26,14 +26,16 @@ botoesRepositorio.forEach(button => {
 
 });
 
-const cores = ["red", "green", "blue", "purple"]
+const cores = ["red", "green", "blue", "purple"];
 const botaoFormulario = document.getElementById('botao-cor')
 
 function numAleatorio() {
-    return Math.floor(Math.random()* cores.length)
+    return Math.floor(Math.random() * cores.length)
 }
 
-botaoFormulario.addEventListener("click", function mudarCor(){
+botaoFormulario.addEventListener("click", function mudarCor(event) {
+    event.preventDefault(); // Previne o comportamento padrão do formulário
     const indice = numAleatorio()
-    document.body.style.backgroundColor = cores[indice]
-})
+    document.body.style.backgroundColor = cores[indice];
+    return false // evitar a recarga da página
+});
