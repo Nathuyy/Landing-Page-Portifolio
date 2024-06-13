@@ -334,5 +334,73 @@ form label {
     padding: 12px 20px;
     background: transparent;
 
-   
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    #logo {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #logo h1 {
+        font-size: 18px;
+    }
+
+    nav {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin-left: 100px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    nav ul li a {
+        width: 100%;
+        display: block;
+    }
+
+    main {
+        padding-top: 150px;
+    }
+
+    #intro {
+        flex-direction: column;
+        padding: 20px;
+        width: 90%; /* Ajuste a largura para 90% para proporcionar margens laterais */
+        margin: 0 auto; /* Centraliza o contêiner */
+    }
+
+    #intro > div {
+        max-width: 100%;
+    }
+
+    #intro img {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 20px; 
+    }
+
+    #intro h2 {
+        font-size: 22px;
+    }
+
+    #intro p {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 10px 20px;
+    }
 }
